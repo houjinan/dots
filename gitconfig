@@ -1,10 +1,10 @@
 [user]
-	email = me@lizhe.name
-	name = lizhe
+  email = me@lizhe.name
+  name = lizhe
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 [color]
-	ui = true
+  ui = true
 [alias]
   st = status 
   sa = stash
