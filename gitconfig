@@ -1,0 +1,13 @@
+[user]
+	email = me@lizhe.name
+	name = lizhe
+[credential]
+	helper = osxkeychain
+[color]
+	ui = true
+[alias]
+  st = status 
+  sa = stash
+	ci = commit
+  co = checkout
+  br = branch
