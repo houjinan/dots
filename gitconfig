@@ -1,5 +1,7 @@
 [user]
 	name = Lizhe
+[color]
+	ui = true
 [alias]
 	fetchv = fetch -v
 	pullv = pull -v
@@ -52,5 +54,3 @@
 	datetag = !git tag `date \"+%Y%m%d%H%M\"`
 	tags = tag -n10
 	export = archive --format zip master --output
-[color]
-	ui = true
