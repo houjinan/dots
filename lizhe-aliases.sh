@@ -1,3 +1,4 @@
+alias ll='ls -la'
 alias lls='ls -l'
 alias wp='cd ~/workspace'
  
