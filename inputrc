@@ -1,4 +1,0 @@
-set -o vi
-export EDITOR=/usr/bin/vi
-set editing-mode vi
-set keymap vi
