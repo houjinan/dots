@@ -1,5 +1,6 @@
 [user]
-	name = Lizhe
+	name = lizhe
+	email = lizhe@qguang.com
 [color]
 	ui = true
 [alias]
@@ -13,6 +14,7 @@
 	cia = commit --amend
 	di = diff --ignore-space-at-eol -w -b
 	ds = diff --stat
+	dst = diff --staged
 	dic = diff --cached
 	dih = diff HEAD
 	wc = whatchanged --oneline
@@ -36,7 +38,8 @@
 	his = !git log --numstat --pretty=format:\"%Cred%an%Creset@%ar %Cgreen%s%Creset\" HEAD
 	last = log -1 -p HEAD
 	hd = log -2 HEAD
-	lg = log --date=local
+	lgg = log --date=local --oneline --graph
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit""
 	ls = log --stat --summary --date=local
 	ll = log -p --date=local
 	llw = log -p --date=local --word-diff

@@ -7,4 +7,4 @@ alias rc='rails c'
 alias rg='rails g'
 
 alias bd='bundle'
-alias be='bundle exec'
+alias bx='bundle exec'
