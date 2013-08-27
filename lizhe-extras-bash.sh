@@ -1,10 +1,7 @@
 source ~/.dots/bash_prompt.sh
 
 # vi mode
-set -o vi
 export EDITOR=/usr/bin/vi
-set editing-mode vi
-set keymap vi
 
 # for ruby on rails
 
