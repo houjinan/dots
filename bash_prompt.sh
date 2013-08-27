@@ -1,4 +1,4 @@
-source ~/dots/colors.theme.bash
+source ~/.dots/colors.theme.bash
 
 function __git_dirty {
   git diff --quiet HEAD &>/dev/null 

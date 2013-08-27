@@ -1,4 +1,4 @@
-source ~/dots/bash_prompt.sh
+source ~/.dots/bash_prompt.sh
 
 # vi mode
 set -o vi
@@ -10,7 +10,7 @@ set keymap vi
 
 alias ll='ls -la'
 alias lls='ls -l'
-alias wp='cd ~/workspace'
+alias wp='cd ~/Workspace'
  
 alias rs='rails s -p 3008'
 alias rc='rails c'
